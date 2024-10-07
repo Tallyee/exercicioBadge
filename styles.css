@@ -1,0 +1,59 @@
+:root {
+    --cor-letra: black;
+    --padding: 6px;
+    --border: 20px;
+    --margin:5px
+}
+
+.icone {
+    width: 20px;
+    fill: purple;
+}
+
+.trabalho {
+    background-color: black;
+    color: white;
+    border-radius:  var(--border);
+    padding:  var(--padding);
+    width: fit-content;
+    margin: var(--margin);
+
+}
+
+.casa {
+    background-color: pink;
+    color: var(--cor-letra);
+    border-radius: var(--border);
+    padding: var(--padding);
+    width: fit-content;
+    margin: var(--margin);
+   
+}
+
+.ferias {
+    background-color: orange;
+    color: var(--cor-letra);
+    border-radius: var(--border);
+    padding: var(--padding);
+    width: fit-content;
+    margin: var(--margin);
+
+
+}
+
+.conteudo {
+    background-color: rgb(184, 181, 173);
+    border-radius: 6px;
+    padding: 12px;
+    
+}
+.badgings{
+    display: inline-flex;
+    
+}
+.paragrafo{
+    font-weight: bold;
+    margin: 0;
+}
+
+
